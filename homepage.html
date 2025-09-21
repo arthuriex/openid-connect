@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #eb0a28FF, #faa200aa);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffffaa;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .info {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .info span {
+            font-weight: 600;
+            color: #333;
+        }
+
+        button {
+            color: #fff;
+            background-color: #1D6DCD;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #ffe600ff;
+            color: #000;
+            transform: scale(1.05);
+        }
+
+        .fotoPerfil {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-block: 20px;
+            box-shadow: 1px 1px 50px 1px #fff7;
+        }
+        .textoInicial {
+            font-family: arial;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            button {
+                font-size: 1rem;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+    <script type="module" src="./homepage.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bem-vindo à sua conta</h1>
+        <img class="fotoPerfil" id="loggedFotoPerfil" src="" alt="Foto de Perfil"></img>
+        <div class="info"><span class="textoInicial">Nome:</span> <span id="loggedUserFName"></span></div>
+        <div class="info"><span class="textoInicial">Sobrenome:</span> <span id="loggedUserLName"></span></div>
+        <div class="info"><span class="textoInicial">E-mail:</span> <span id="loggedUserEmail"></span></div>
+        <button id="logout">Sair</button>
+    </div>
+</body>
+
+</html>
