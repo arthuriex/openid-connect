@@ -1,4 +1,4 @@
-# Login com Firebase e OpenID Connect
+# Login com Firebase e OpenID Connect - Arthur Amorim Alves
  
 Este repositório é parte de uma atividade prática proposta pelo professor Jacques na Etec Antonio Furlan. A atividade representa a aplicação web de login e cadastro, utilizando o Firebase para autenticação e o Firestore para gerenciar dados de usuários. O projeto foi desenvolvido para demonstrar a utilização de autenticação e autorização com OpenID Connect.
  
