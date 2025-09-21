@@ -1,12 +1,12 @@
 # Login com Firebase e OpenID Connect
  
-Este repositório contém um exemplo prático e completo de uma aplicação web de login e cadastro, utilizando o Firebase para autenticação e o Firestore para gerenciar dados de usuários. O projeto foi desenvolvido para demonstrar a utilização de autenticação e autorização com OpenID Connect.
+Este repositório é parte de uma atividade prática proposta pelo professor Jacques na Etec Antonio Furlan. A atividade representa a aplicação web de login e cadastro, utilizando o Firebase para autenticação e o Firestore para gerenciar dados de usuários. O projeto foi desenvolvido para demonstrar a utilização de autenticação e autorização com OpenID Connect.
  
 ## Tecnologias Utilizadas
  
 Firebase Authentication: Para gerenciar o processo de login e cadastro de usuários, incluindo métodos de autenticação por e-mail e senha.
 Cloud Firestore: Um banco de dados NoSQL utilizado para armazenar informações adicionais do usuário (nome, sobrenome, e-mail) de forma segura.
-HTML, CSS e JavaScript: A base para a interface do usuário e a lógica de front-end. O estilo da página é responsivo e tem um design limpo e moderno.
+HTML, CSS e JavaScript: A base para a interface do usuário e a lógica de front-end. O estilo da página é responsivo e tem um design limpo e mudado para temas como o do firebase.
  
 ## Funcionalidades Principais
  
@@ -32,6 +32,9 @@ firebaseauth.js: Contém a lógica de autenticação e interação com o Firesto
 homepage.js: Gerencia o estado de autenticação do usuário e busca seus dados para exibição na página inicial.
 script.js: Controla a exibição e ocultação dos formulários de login e cadastro.
 style.css: Folha de estilo para a interface da aplicação.
+
+## Dificuldades Encontradas
+Algumas das dificuldades encontradas no desenvolvimento do projeto envolveram a conexão com o firebase em si. Houve erros por parte da conexão onde ia desde não ser possível encontrar a API a erros de documento, não encontrando o campo para salvamento dos dados no firestore. Em geral o desenvolvimento foi tranquilo e simples. O código atualmente está em pleno funcionamento e com tudo funcionando corretamente.
  
 ## Licença
  
